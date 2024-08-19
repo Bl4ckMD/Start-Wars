@@ -9,8 +9,7 @@
 /* styles from menu*/
 
 .menu{
-    background-color: aqua;
-    color: red;
+    background-color: #0d0c1d;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -18,38 +17,49 @@
 }
 
 ul{
-    background-color: aqua;
+    background-color: #0d0c1d;
     list-style: none;
-    margin: 5px;
+    margin: 2px;
     display: flex;
 }
 
 li > .click{
     display: flex;
     text-decoration: none;
-    padding: 10px;
+    padding: 5px;
 }
 
 .click{
-    background-color: aqua;
-    color: blueviolet;
+    background-color: #0d0c1d;
+    color: #b40000;
     align-items: center;
 }
 
 .click:hover{
     transition: 3s;
-    color: azure;
+    color: #002fff;
 }
 
 /*styles from banner*/
 
-h1{
-    text-align: start;
-    padding: 30px;
+.banner h1{
+    background-image: url(../img/ba.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10rem;
+
+    text-align: center;
+    position:relative;
+    color: #b40000;
+    margin-top: -5px;
+    font-size: 3rem;
 }
 
-.title > h1:hover{
-    
+.banner h1:hover{
     transition: 3s;
-    transform: translateX(2em);
+    color: #002fff;
+    box-shadow: 5px 10px 7px rgb(0,0,0,0.5);
 }
+
+/* styles from page*/
